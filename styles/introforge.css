@@ -1,0 +1,29 @@
+.container{
+    font-family: sans-serif;
+}
+.headpart{
+    background-color:#7e7eff;
+    font-family: sans-serif;
+    margin: -5px;
+}
+#hpart{
+    color:orange;
+}
+nav a{
+    color: white;
+}
+#intro-heder{
+   
+}
+#clients{
+    background-color: blanchedalmond;
+    height: 500px ;
+
+}
+img{
+    width: fit-content;
+    height: 200px;
+    margin: 50px;
+
+    
+}

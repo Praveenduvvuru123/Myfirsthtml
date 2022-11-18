@@ -1,0 +1,49 @@
+body{
+    background-color: bisque;
+    margin: 0%;
+}
+.container{
+    margin:auto;
+    font-family: sans-serif;
+    padding: 10px;
+}
+   
+
+h1{
+    color:green;
+}
+#introduction a{
+    float: right;
+    margin-right: 50px;
+    margin-bottom: -15px;
+   
+}
+em{
+    color: blueviolet;
+}
+#introduction{
+    color: red;
+    margin: -5px;
+    background-color:lightsalmon;
+    margin: -8px;
+    margin-bottom: -20px;
+    margin-top: -28px;
+}
+#steps{
+    color: red;
+    
+}
+li{
+    color: black;
+}
+#hr2{
+    margin: 0%;
+}
+#fav1{
+    font-size:larger;
+}
+#actor{
+    font-size: xx-large;
+    width: fit-content;
+}
+    
