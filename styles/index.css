@@ -1,49 +1,45 @@
 body{
-    background-color: bisque;
+    background-color: #030e4f;
     margin: 0%;
 }
 .container{
-    margin:auto;
     font-family: sans-serif;
-    padding: 10px;
+    background-color: #030e4f;
+    color: #f49f1c;
+    width: fit-content;
+
 }
    
 
 h1{
-    color:green;
+    color:#f49f1c;
 }
 #introduction a{
     float: right;
     margin-right: 50px;
     margin-bottom: -15px;
+    color: white;
    
 }
-em{
-    color: blueviolet;
-}
-#introduction{
-    color: red;
-    margin: -5px;
-    background-color:lightsalmon;
-    margin: -8px;
-    margin-bottom: -20px;
-    margin-top: -28px;
-}
-#steps{
-    color: red;
-    
-}
-li{
-    color: black;
+#wiki{
+    color: white;
 }
 #hr2{
     margin: 0%;
+}
+#favourites{
+    width: fit-content;
+    
+}
+img{
+    width: 1245px;
+    height: 900px;
 }
 #fav1{
     font-size:larger;
 }
 #actor{
     font-size: xx-large;
-    width: fit-content;
+    
 }
     
