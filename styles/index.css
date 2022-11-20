@@ -1,45 +1,70 @@
-body{
-    background-color: #030e4f;
+*{
     margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E3FDFD;   
 }
 .container{
-    font-family: sans-serif;
-    background-color: #030e4f;
-    color: #f49f1c;
-    width: fit-content;
-
-}
-   
-
-h1{
-    color:#f49f1c;
-}
-#introduction a{
-    float: right;
-    margin-right: 50px;
-    margin-bottom: -15px;
-    color: white;
-   
-}
-#wiki{
-    color: white;
-}
-#hr2{
-    margin: 0%;
-}
-#favourites{
-    width: fit-content;
-    
+   margin:2px 100px 5px 100px;
+   font-family: sans-serif;
+   background-color: #CBF1F5;
 }
 img{
-    width: 1245px;
-    height: 900px;
+    width: 930px;
+}
+#introduction{
+    text-align: center;
+    background-color:#71C9CE;
+}
+#hr1{
+    border-top:dotted 5px;    
+}
+h3{
+    text-align: center;
+    text-decoration:underline;
+}
+h4{
+    text-align: center;
+    text-decoration:underline;
+}
+li{
+    margin: 5px;
+}
+#steps{
+    padding: 15px;
+}
+#hr2{
+    border-top:dotted 5px;
+}
+#favourites{
+    text-align: center;
+
+    padding: 15px;
+}
+#wiki{
+    text-align: left;
+}
+h5{
+   text-align: center;
+   font-size: 20px;
+   text-decoration: underline;
 }
 #fav1{
-    font-size:larger;
+    font-size: larger;
+    text-decoration: underline;
 }
 #actor{
     font-size: xx-large;
-    
 }
-    
+footer{
+    background-color: #A6E3E9;
+    text-align: center;
+}
+#hr3{
+    border-top:dotted 5px;
+}
+#contact1{
+    margin-left: 5px;
+}
