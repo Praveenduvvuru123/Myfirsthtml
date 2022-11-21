@@ -7,68 +7,59 @@ body{
     background-color: #E3FDFD;   
 }
 .container{
-   margin:2px 100px 5px 100px;
+   margin:0 100px;  
+   width:5px auto;
    font-family: sans-serif;
-   background-color: #CBF1F5;
 }
 h1{
     padding-top: 10px;
 }
+span{
+    color: #0014FF;
+}
 img{
-    width: 930px;
+    width: 300px;
 }
-#introduction{
-    height: 200px;
-    text-align: center;
-    background-color:#71C9CE;
-    
-}
-#hr1{
-    border-top:dotted 5px;    
-}
-#hr2{
-    border-top:dotted 5px;
-}
-h3{
-    text-align: center;
-    text-decoration:underline;
-}
-h4{
-    text-align: center;
-    text-decoration:underline;
+hr{
+    border: none;
+    margin: 20px;
+    border-top: dotted 5px;
 }
 li{
-    margin: 5px;
-}
-#steps{
-    padding: 15px;
-}
-#favourites{
-    text-align: center;
-    padding: 15px;
-}
-#wiki{
-    text-align: left;
-}
-h5{
-   text-align: center;
-   font-size: 20px;
-   text-decoration: underline;
-}
-#fav1{
-    font-size: larger;
-    text-decoration: underline;
-}
-#actor{
-    font-size: xx-large;
+    margin: 4px;
 }
 footer{
-    background-color: #A6E3E9;
+    background-color: #E3FDFD;
+}
+.contact1{
+    margin-top: 20px;
     text-align: center;
+}
+.headings{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
 }
 #hr3{
     border-top:dotted 5px;
 }
-#contact1{
-    margin-left: 5px;
+#introduction{
+    height: 150px;
+    text-align: center;
 }
+#steps{
+    padding: 30px;
+    height: 430px;
+    background-color:#71C9CE;
+    
+}
+#favourites{
+    text-align: center;
+    padding: 15px;
+    background-color:#71C9CE;
+}
+#wiki{
+    text-align: left;
+}
+
