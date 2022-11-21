@@ -1,31 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 .container{
     font-family: sans-serif;
 }
-.headpart{
+header {
     background-color:#7e7eff;
     font-family: sans-serif;
-    margin: -5px;
+    min-height: 75px;
 }
+#logo{
+    margin: 10px;
+    float: left;
+}
+.headpart{
+    width: 75%;
+    margin: auto;
+}
+nav{
+    float: right;
+    margin-top: 25px;
+}
+.intro-heder{
+    height: 70%;
+    padding: 10px;
+    text-align: center;   
+ }
+ 
+ .services{
+    height: 90%;
+    margin: auto;
+ }
+ h4{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+ }
+ .website{
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+ }   
+ .App-Development{
+    width: 35%;
+    float: left;
+    text-align: center;
+    padding: 10px;  
+ }
+ .Consultation{
+    width: 30%;
+    text-align: center;
+    float: right;
+    padding: 10px;
+ }
+ #website{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+ }
+ #App-Development{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin-left: 25%;
+    margin-top: 10px;
+ }
 #hpart{
     color:orange;
 }
 nav a{
     color: white;
 }
-#intro-header{
-   
-}
-#clients{
+.clients{
     background-color: blanchedalmond;
     height: 500px ;
-
+    text-align: center;
 }
 img{
     width: fit-content;
     height: 200px;
-    margin: 50px;
-
-    
+    margin: 50px;    
 }
 footer{
     background-color:#7e7eff;
