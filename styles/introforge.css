@@ -6,10 +6,10 @@
 .container{
     font-family: sans-serif;
 }
-header {
+header{
     background-color:#7e7eff;
-    font-family: sans-serif;
     min-height: 75px;
+    font-family: sans-serif;
 }
 #logo{
     margin: 10px;
@@ -24,13 +24,52 @@ nav{
     margin-top: 25px;
 }
 .intro-heder{
-    height: 70%;
-    padding: 10px;
-    text-align: center;   
+    height: 300px;
+    text-align: center;
+    font-family: sans-serif;
  }
- 
+ h2{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 50px;
+ }
+ #p1{
+   font-weight: 400;
+   font-size:x-large;
+   margin-bottom: 20px;
+ }
+ span{
+    font-size:xx-large;
+    font-weight: bold;
+ }
+ #sp1{
+    color: #7e7eff;
+ }
+ #sp2{
+    color:orange;
+ }
+ button{
+    margin-top: 20px;
+    padding: 5px;
+    font-size: x-large;
+    background-color:#7e7eff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+ }
+ .clients{
+    background-color: blanchedalmond;
+    height: 400px ;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
  .services{
-    height: 90%;
+    height: 550px;
     margin: auto;
  }
  h4{
@@ -39,7 +78,7 @@ nav{
     padding: 20px;
  }
  .website{
-    width: 33%;
+    width: 30%;
     float: left;
     text-align: center;
     padding: 10px;
@@ -73,11 +112,8 @@ nav{
 }
 nav a{
     color: white;
-}
-.clients{
-    background-color: blanchedalmond;
-    height: 500px ;
-    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
 }
 img{
     width: fit-content;
@@ -86,4 +122,14 @@ img{
 }
 footer{
     background-color:#7e7eff;
+}
+footer{
+    height: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+footer p{
+    font-size:x-large ;
+    color: white;
+    
 }

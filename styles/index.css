@@ -29,11 +29,22 @@ li{
     margin: 4px;
 }
 footer{
+    margin-left:35vw;
+    height: 100px;
+    width: 200px;
     background-color: #E3FDFD;
 }
-.contact1{
-    margin-top: 20px;
+footer a{
+    margin-top: 10px;
     text-align: center;
+    display: block;
+    /* visibility: hidden; */
+}
+a:visited{
+    color: #adff2f;
+}
+a:hover{
+    color: #f00;
 }
 .headings{
     text-align: center;
