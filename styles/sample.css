@@ -4,31 +4,35 @@
     box-sizing: border-box;
 }
 .container{
-    height: 1000px;
-    width: 1000px;
+    height: 100%;
+    width: 100%;
     background-color: black;
 }
-#box1{
+.box1{
     background-color: blue;
-    width: 30vw;
-    height: 20vh;
-   
+    width: 20vw;
+    height: 10vh;
 }
-#box1:active{
+.box1:active{
     box-shadow: 10px 10px red;   
 }
-#box2{
+.box2{
     background-color: aqua;
-    width: 30vw;
-    height: 20vh;
+    width: 20vw;
+    height: 10vh;
 }
-#box3{
+.box3{
     background-color: blanchedalmond;
-    width: 30rem;
-    height: 20rem;
+    width: 20rem;
+    height: 10rem;
 }
-#box4{
+.box4{
     background-color: brown;
-    width: 30em;
-    height: 20em;
+    width: 20em;
+    height: 10em;
+}
+.banner{
+   padding: 5rem;
+   margin-left: 3vw;
+
 }
