@@ -31,6 +31,10 @@
     width: 20em;
     height: 10em;
 }
+
+img{
+    margin-left: 50px;
+}
 .banner{
    padding: 5rem;
    margin-left: 3vw;

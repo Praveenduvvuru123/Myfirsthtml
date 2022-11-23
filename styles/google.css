@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 70px;
+    font-family: sans-serif
+}
+
+.container{
+    font-family: sans-serif;
+    text-align: center;
+    height: 200%;
+    width: 100%;
+ 
+}
+#google{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+    
+}
+
+img{
+    width: 300px;
+    margin-left: 220px;
+    
+}
+
+.sign-in {
+    background-color: #000;
+    color: #fff;
+    margin-left: -2px;
+}
+
+nav{
+    float: right;
+    padding: 3px;
+    margin:auto;
+
+}
+
+footer{
+    height: 98px;
+    text-align: left;
+    background-color:#f2f2f2 ;
+}
+
+.terms1{
+    padding: 2px;
+    margin-right: 20px;
+    float: right;
+    text-align: center;
+    height: 40px;
+
+}
+.terms{
+    padding: 2px;
+    margin-top: 10px;
+    
+}
+
+.terms1 span{
+    margin: 5px;
+   
+}
+
+.terms span{
+    
+    text-align: center;
+    margin: 10px;
+}
+
+input{
+    width:45vw;
+    height: 8vh;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border:solid 3px #f2f2f2;
+}
+input:hover{
+    background-color:#f2f2f2;
+    
+}
+
+button{
+    border: none;
+    padding: 5px;
+    font-size:smaller;
+    border-radius: 10px;
+    margin: 20px;
+    border:solid 3px #f2f2f2;  
+
+}
+
+a{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.lang{
+    margin-top: 10px;
+    height: 230px;
+    font-stretch:semi-expanded;
+
+}
+.in{
+    height: 47px;
+    padding: 15px;
+    border-bottom:1px solid#dadce0;
+
+}
