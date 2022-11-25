@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    height:569px;
+    width: 100%;
+    background-color: blanchedalmond;
+
+}
+   
+.box1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position:relative;
+    left: 45%;
+    top:40%;
+    
+}
+p{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
