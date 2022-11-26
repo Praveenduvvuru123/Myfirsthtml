@@ -7,38 +7,58 @@ body{
     background-color: #E3FDFD;   
 }
 .container{
-   margin:0 100px;  
-   width:5px auto;
+   margin:0 10vw;  
    font-family: sans-serif;
 }
 h1{
-    padding-top: 10px;
+    margin-top: -3vh;
+    padding-top: 1rem;
+    overflow: hidden;
+    margin-bottom: 2vh;
 }
 span{
     color: #0014FF;
 }
+
 img{
-    width: 300px;
+    width: 24vw;
+    min-height: 26vh;
 }
 hr{
     border: none;
-    margin: 20px;
-    border-top: dotted 5px;
+    margin: 0%;
+    margin: 2vh 1vw;
+    border-top: dotted 1vh;
 }
+
+ul{
+    padding: 1em;
+}
+
+ol{
+    padding: 1em;
+}
+
 li{
-    margin: 4px;
+    margin: 0.4vh;
+    
 }
 footer{
     margin-left:35vw;
-    height: 100px;
-    width: 200px;
+    text-align: center;
+    min-height: 20vh;
+    width: 28vw;
     background-color: #E3FDFD;
 }
 footer a{
-    margin-top: 10px;
+    margin-top: 2vh;
     text-align: center;
     display: block;
     /* visibility: hidden; */
+}
+
+.contact{
+    margin-left: 3vw;
 }
 a:visited{
     color: #adff2f;
@@ -48,29 +68,47 @@ a:hover{
 }
 .headings{
     text-align: center;
-    font-size: 20px;
+    min-width: 5vh 7vw;
+    font-size: 1.5rem;
     text-decoration: underline;
     font-weight: bolder;
 }
-#hr3{
-    border-top:dotted 5px;
+
+.links{
+    max-width: 5vh 5vw;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-decoration: underline;
 }
-#introduction{
-    height: 150px;
+
+.introduction{
+    min-height: 10vh;
+    /* background-color: red; */
+    padding: 1rem;
     text-align: center;
 }
+.introduction p{
+    /* margin: 3vh; */
+}
 #steps{
-    padding: 30px;
-    height: 430px;
+    padding: 2vh 2vw;
+    min-height: 80vh;
     background-color:#71C9CE;
     
 }
 #favourites{
     text-align: center;
-    padding: 15px;
+    padding: 1rem;
     background-color:#71C9CE;
 }
 #wiki{
-    text-align: left;
+   text-align: justify;
+}
+
+@media screen and (max-width:425) {
+    /* h1 text going to down */
+    /* .headings font size small and going to down */
+    
+    
 }
 

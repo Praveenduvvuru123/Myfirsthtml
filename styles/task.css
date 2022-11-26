@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    height:900px;
+    width:1000px;
+
+   
+}
+
+.box {
+
+    width: 300px;
+    height: 350px;
+    float: left;
+    margin: 10px;
+}
+   
+.blue{
+    background-color: blue;
+   
+}
+
+.red{
+    background-color: red;
+
+}
+
+.green{
+    background-color: green;
+   
+}
+
+.yellow{
+
+    background-color: yellow;
+   
+}
+.orange{
+
+    background-color: orange;
+  
+}
+
+.black{
+
+    background-color: black;
+   
+   
+}
+
+@media screen and (max-width: 769px) {
+  
+    .box{
+        clear: both;
+    }
+
+  }
