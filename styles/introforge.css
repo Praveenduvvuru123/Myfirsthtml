@@ -3,127 +3,135 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.container{
-    height: 100%;
-    width: 221.95vh;
-    /* border:2px solid black; */
 
+body{
+
+    border: 2pex solid red;
 }
+
 header{
 
+    min-height: 80px;
+    width: 100%;
     background-color:#7e7eff;
-    min-height: 75px;
-    min-width:98.7vw;
     font-family: sans-serif;
+}
+
+.navbar{
+
+    width: 90%;
 }
 
 #logo{
 
-    margin: 20px 100px;
+    margin: 1vh 4vw;
+    font-size: larger;
+    padding: 5px;
     float: left;
 }
 
 nav{
 
     float: right;
-    margin-right: 100px;
-    margin-top: 1.6rem;
+    padding: 15px;
+    margin-top: 1rem;
 }
 .intro-heder{
 
     min-height: 55vh;
+    padding: 4px;
     text-align: center;
     font-family: sans-serif;
- }
- h2{
+}
 
-    margin-top: 6rem;
+h2{
+
+    margin-top: 2.5rem;
     margin-bottom:4.5vh;
     font-size: 3.2rem;
- }
- #p1{
+}
+#p1{
 
    font-weight: 400;
+   padding: 5px;
    font-size:x-large;
    margin-bottom: 20px;
- }
- span{
+}
+span{
 
     font-size:xx-large;
     font-weight: bold;
- }
+}
 
- #sp1{
+#sp1{
 
     color: #7e7eff;
- }
+}
 
- #sp2{
+#sp2{
     color:orange;
- }
+}
 
- button{
+button{
 
-    margin-top: 5vh;
+    margin: 8vh;
     padding: 13px;
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: bolder;
     background-color:#7e7eff;
     color: white;
     border: none;
     border-radius: 10px;
     
- }
+}
 
- .clients{
+.clients{
 
     background-color: blanchedalmond;
-    min-height: 85vh ;
-    width: 98.7vw;
+    min-height: 87vh ;
+    margin: auto;
     text-align: center;
 }
 
 .clients img{
 
-    height: 26vh;
-    min-width: 15vw;
+    height: 35vh;
     margin: 0 2vw;
 }
 
 h3{
     font-family: sans-serif;
     text-align: center;
-    margin: 0;
     font-size: 2.5rem;
     padding: 40px;
 }
 
- .services{
+.services{
 
-    min-height:100vh;
-    margin: auto;
+    min-height:74vh;
+    margin: 2px 40px;
+    
  }
 
- .services img{
+.services img{
 
-    height: 26vh;
+    height: 28vh;
     align-items: center;
-    margin: 0 10vw;
+    margin: 0 1.2vw;
  }
 
- h4{
+h4{
 
     text-align: center;
     font-size: 2.5rem;
     padding: 25px;
  }
-
- .pera{
+.pera{
     
     width: 24rem;
     padding: 5px;
-    margin: 1vh 0.2vw;
-    font-size: 25px; 
+    margin: 1vh 0.4vw;
+    font-size: 24px; 
     text-align: center;
     display: inline-block;
  }
@@ -131,7 +139,7 @@ h3{
 #hpart{
 
     color:orange;
-
+    
 }
 
 nav a{
@@ -139,13 +147,15 @@ nav a{
     color: white;
     text-decoration: none;
     margin: 1em;
+    text-align: center;
+    padding: 5px;
     font-size: 1.2rem;
 }
 
 footer{
 
     background-color:#7e7eff;
-    max-height: 11vh;
+    min-height: 11vh;
     text-align: center;
 
 }
@@ -160,19 +170,60 @@ footer p{
     
 }
 
-@media screen and (max-width:2560px){
+@media screen and (max-width:915px){
 
-    /* nav{
+    .navbar{
 
-        margin-right: 300px; */
-        /* font-size: 2rem; */
+        display: inline-block;
+        
     }
 
-    /* .services1{
+    nav{
 
-        width: 200px;
+        margin: 1em 1em;
+        padding:1em 8.5em ;
+        text-align: center;
+    }
+    
+    #logo{
+        margin-left: 19vw;
+        font-size: x-large;
+     }
+}
+
+@media screen and (max-width:780px){
+ 
+    nav{
+
+        margin: 5px;
+        text-align: center;
+    }
+
+    .services{
         margin: 0;
+        padding: 0%;
+        width: 100vw;
+    }
+    .pera{
+        margin: 5px 0;
+        padding: 0%;
+        width: 20rem;
+    }
 
-    } */
+    .services img{
+
+        margin: 0;
+    }
+
+    header{
+
+        margin: 0;
+    }
+
+    .navbar a{
+        float: left;
+    }
+
+    
     
 }
