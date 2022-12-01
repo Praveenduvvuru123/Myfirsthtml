@@ -1,229 +1,269 @@
-*{
-    margin: 0%;
-    padding: 0%;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+
 }
 
 body{
+    font-family: sans-serif;
+    background-color: #fff;
+}
 
-    border: 2pex solid red;
+#hpart{
+   color: #ffa600; 
 }
 
 header{
-
-    min-height: 80px;
-    width: 100%;
+    min-height: 12vh;
     background-color:#7e7eff;
-    font-family: sans-serif;
 }
+
 
 .navbar{
-
-    width: 90%;
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+    
 }
 
-#logo{
-
-    margin: 1vh 4vw;
-    font-size: larger;
-    padding: 5px;
+header #logo{
     float: left;
+    margin: 10px;
 }
 
 nav{
-
     float: right;
-    padding: 15px;
-    margin-top: 1rem;
 }
-.intro-heder{
 
-    min-height: 55vh;
-    padding: 4px;
+ul{
+    padding-top: 15px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: #000;
+}
+
+.intro{
+    min-height: 300px;
     text-align: center;
-    font-family: sans-serif;
 }
 
-h2{
-
-    margin-top: 2.5rem;
-    margin-bottom:4.5vh;
-    font-size: 3.2rem;
+.intro h2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 45px;
 }
-#p1{
 
-   font-weight: 400;
-   padding: 5px;
-   font-size:x-large;
-   margin-bottom: 20px;
+.intro p{
+    margin-bottom: 12px;
+    font-size: 20px;
+
 }
-span{
 
-    font-size:xx-large;
-    font-weight: bold;
+.intro span{
+    font-size: 25px;
+    font-weight: 600;
 }
 
 #sp1{
-
     color: #7e7eff;
 }
 
 #sp2{
-    color:orange;
+    color: #ffa600;
 }
 
 button{
-
-    margin: 8vh;
-    padding: 13px;
-    font-size: 1.5em;
+    padding: 10px;
+    font-size: 24px;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
     font-weight: bolder;
-    background-color:#7e7eff;
-    color: white;
-    border: none;
     border-radius: 10px;
-    
+    background-color: #7e7eff;
+    color: #fff;
+    border: 3px solid;
+    cursor: pointer;
+}
+
+button:hover{
+    border-color:#ffa600;
+
 }
 
 .clients{
-
-    background-color: blanchedalmond;
-    min-height: 87vh ;
-    margin: auto;
+    min-height: 98vh;
     text-align: center;
+    background-color: #fef0d6;
+    font-size: 35px;
+    padding-top: 30px;
+
 }
 
 .clients img{
+    width: 20%;
+    height: 30%;
+    padding: 0 20px;
 
-    height: 35vh;
-    margin: 0 2vw;
 }
 
-h3{
-    font-family: sans-serif;
+#service{
+    min-height: 100vh;
     text-align: center;
-    font-size: 2.5rem;
-    padding: 40px;
 }
 
-.services{
-
-    min-height:74vh;
-    margin: 2px 40px;
-    
- }
-
-.services img{
-
-    height: 28vh;
-    align-items: center;
-    margin: 0 1.2vw;
- }
-
-h4{
-
-    text-align: center;
-    font-size: 2.5rem;
-    padding: 25px;
- }
-.pera{
-    
-    width: 24rem;
-    padding: 5px;
-    margin: 1vh 0.4vw;
-    font-size: 24px; 
-    text-align: center;
-    display: inline-block;
- }
- 
-#hpart{
-
-    color:orange;
-    
+.container{
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
 }
 
-nav a{
+#service h4{
+    padding-top: 30px;
+    font-size: 35px;
+}
 
-    color: white;
-    text-decoration: none;
-    margin: 1em;
+#service .box1 p{
+    font-size: 25px;
+}
+
+.box1{
+    float: left;
+    width: 33%;
     text-align: center;
     padding: 5px;
-    font-size: 1.2rem;
+}
+
+#service .box1 img{
+    width:150px
+
 }
 
 footer{
-
-    background-color:#7e7eff;
-    min-height: 11vh;
     text-align: center;
-
+    min-height: 10vh;
+    background-color: #7e7eff;
+    color: #fff;
+    padding: 20px;
 }
-footer p{
 
-    font-family: sans-serif;
-    padding: 1.5rem;
-    font-stretch: expanded;
-    font-size: 1em;
-    font-stretch:ultra-expanded;
-    color: white;
+@media screen and (max-width:768px){
+   
+    .box1{
+        width:70%;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 65px;
+    }
     
-}
+    #service .container{
+        text-align: center;
+    }
 
-@media screen and (max-width:915px){
+    .intro h2{
+        font-size: 40px;
+        margin-top: 55px;
+    }
 
-    .navbar{
-
-        display: inline-block;
+    .intro p{
+        font-size: 30px;
         
     }
 
-    nav{
-
-        margin: 1em 1em;
-        padding:1em 8.5em ;
-        text-align: center;
-    }
-    
-    #logo{
-        margin-left: 19vw;
-        font-size: x-large;
-     }
-}
-
-@media screen and (max-width:780px){
- 
-    nav{
-
-        margin: 5px;
-        text-align: center;
+    button{
+        margin-bottom: 20px;
     }
 
-    .services{
-        margin: 0;
-        padding: 0%;
-        width: 100vw;
-    }
-    .pera{
-        margin: 5px 0;
-        padding: 0%;
-        width: 20rem;
+    .clients img{
+        width: 50%;
     }
 
-    .services img{
-
-        margin: 0;
+    h3{
+        font-size: 50px;
+        font-weight: bolder;
     }
 
-    header{
 
-        margin: 0;
-    }
-
-    .navbar a{
-        float: left;
-    }
-
-    
     
 }
+
+@media screen and (min-width:2560px){
+    h1{
+        font-size: 70px;
+        margin-top: 15px;
+    }
+
+    h3{
+        font-size: 70px;
+        font-weight: bolder;
+    }
+
+    .intro p{
+        font-size: 50px;
+        
+    }
+
+    button{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    #service .container .box1 p{
+        font-size: 60px;
+        margin: 10px;
+    }
+
+    #service .container h4{
+        margin-bottom: 30px;
+        font-size: 80px;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    a{
+        
+        padding: 20px;
+        font-size: 45px;
+        margin: 10px;
+    }
+
+    ul{
+        padding-top: 35px;
+        
+    }
+
+    .intro h2{
+        font-size: 80px;
+    }
+
+    footer{
+        font-size: 60px;
+    }
+
+    .intro span{
+        font-size: 60px;
+    }
+
+    .intro span p{
+        font-size: 30px;
+    }
+
+}
+
+
+
+
+
