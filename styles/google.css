@@ -3,11 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: sans-serif;
+}
+
 .container{
     font-family: sans-serif;
     text-align: center;
-    height: 85vh;
+    min-height: 85vh;
     width: 100vw;
+    overflow: hidden;
     
 }
 header{
@@ -51,13 +57,17 @@ a:hover{
 a{
     margin: 5px;
     padding: 5px;
+    font-size: 20px;
     text-decoration: none;
 }
 
 input{
-    width:45vw;
-    height: 8vh;
+    width:580px;
+    height: 50px;
     border-radius: 20px;
+    text-align: left;
+    padding-left: 38px;
+    font-size: 20px;
     margin-bottom: 10px;
     border:solid 3px #f2f2f2;
 }
@@ -68,14 +78,15 @@ input:hover{
 
 .sign-in {
     background-color: blue;
-    font-size: medium;
+    font-size: 20px;
     color: #fff;
     margin-left: -2px;
 }
 
 
 footer{
-    height: 83px;
+
+    height: 85px;
     background-color:#f2f2f2 ;
     font-family: sans-serif;
     font-size:smaller;
@@ -87,18 +98,19 @@ footer{
     margin-right: 20px;
     float: right;
     text-align: center;
-    height: 5px;
+    height: 3px;
     margin-top: 15px;
     font-stretch:semi-expanded;
     
 }
 .terms1 a{
     color: #808080;
+    font-size: 15px;
 }
 .terms{
     display: inline-block;
     padding: 3px;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 15px;
     font-stretch:semi-expanded;
 
@@ -106,6 +118,7 @@ footer{
 
 .terms a{
     color: #808080;
+    font-size: 15px;
 }
 
 #google{
@@ -119,7 +132,7 @@ footer{
 
 .lang{
     margin-top: 10px;
-    height: 125px;
+    height: 80px;
     font-stretch:semi-expanded;
     
 
@@ -147,17 +160,16 @@ footer{
 .icon{
     align-items: center;
     margin: auto;
-    height: 9vh;
-    width: 47vw;
+    height: 90px ;
+    width: 700px;
      
 }
 
 i{
 position: relative;
 right:558px;
-top: 1px;
 color:#808080;
-font-size: smaller;
+font-size: medium;
   
 }
 .mic{
@@ -193,5 +205,14 @@ font-size: smaller;
         display: block;
         color: #fff;
         border-radius: 10px;
+}
+
+@media screen and (max-width:768px){
+    footer{
+        min-height: 5vh;
+    }
+
+   
+    
 }
 

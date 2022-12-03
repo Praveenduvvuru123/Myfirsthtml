@@ -15,8 +15,8 @@ body{
    display:inline-block;
    margin-left: 100px;
    border:2px solid #000;
-   height: 564px;
-   width: 400px;
+   min-height: 564px;
+   width: 31vw;
    background-color: #f2f2f2;
     
 
@@ -43,8 +43,8 @@ h1{
     border: 2px solid #000;
     padding: 10px;
     margin-top: 30px;
-    height: 300px;
-    width: 400px;
+    min-height: 45vh;
+    width: 32vw;
     margin-right: 100px;
     background-color: #f2f2f2;
     
@@ -64,7 +64,7 @@ h2 {
 }
 
 .person{
-    width: 250px;
+    width: 21vw;
     height: 25px;
     border-radius: 8px;
     
@@ -108,7 +108,6 @@ textarea{
     border-left: 2px solid #000;
     height: 569px;
     position: absolute;
-    left: 50%;
     margin-left: -3px;
     top: 0;
 }
@@ -122,3 +121,68 @@ i{
 }
 
 
+@media screen and (max-width:768px){
+    button{
+        font-size: medium;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        margin: 10px 10px 14px 0;
+
+    }
+
+    h1{
+        margin:5px 2px 0 95px;
+        font-size: 30px;
+    }
+
+    label{
+        font-size: 20px;
+    }
+
+    form{
+        margin-top: 20px;
+    }
+
+    .form1{
+        width: 80vw;
+        margin-left: 32px;
+        
+    }
+
+   .form2{
+        float: left;
+        width: 77vw;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    h2{
+        margin: 3px;
+    }
+
+    textarea{
+        max-width:40vw;
+        font-size: 15px;
+    }
+       
+    .person{
+        width: 45vw;
+        font-size: 20px;
+        padding-left: 8px;
+    }
+
+    @media screen and (width:2560px){
+        button{
+            font-size: 50px;
+        }
+    
+        div.form1{
+            margin-top: 1px;
+        }
+
+
+    
+    }
+    
+}

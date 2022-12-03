@@ -51,14 +51,14 @@ console.log(result);*/
 
 //increment and decrement operators
 
-/*let a = 10;
+let a = 10;
 
 console.log(a++);
 console.log(++a);
 console.log(a--);
 console.log(--a);
 
-console.log(a);*/
+console.log(a)
 
 
 
@@ -69,6 +69,6 @@ console.log(a);*/
 
 
 
-
+                                                                                                                                                                                                                                                            
 
 
