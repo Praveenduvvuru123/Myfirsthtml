@@ -6,17 +6,21 @@
 }
 
 body{
-    background-color: #393E46;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+
 }
 
 .container{
     width: 100%;
-    /* border: 2px solid brown; */
+    height: 100%;
     font-family: sans-serif;
+   
 }
 
 .digital{
-    /* border: 2px solid black; */
+    border: 2px solid black;
     position: relative;
     left: 24%;
     top: 110px;
@@ -24,11 +28,11 @@ body{
 
 .clock{
     width: 690px;
-    height: 430px;
+    height: 330px;
     padding: 50px;
     border-radius: 40px;
-    /* background-color:#393E46; */
-    background-color:#393E46;
+    background-color:black;
+    /* background:linear-gradient(135deg, #14ffe9,#ffeb3b,#ff00e0); */
 }
 
 h2{
@@ -61,25 +65,27 @@ p{
 }
 
 h1{
-    /* border: 2px solid black; */
-    width: 150px;
+    border: 2px solid #393E46;
+    width: fit-content;
     margin-left: -80px;
     font-size: 100px;
     margin-top: -30px;
     /* color: #EEEEEE; */
     color: #FF2E63;
-    padding: 10px;
     padding: 40px;
+    background-color: #393E46;
     border-radius: 20px;
+    
 }
 
 #sp1{
     /* border: 2px solid black; */
     margin-left: 30px;
     padding: 10px;
-    background-color: #000;
-
+    background-color: #fff;
+    box-shadow: red;
 }
+
 #sp2{
     margin-left: 30px;
     font-size: 120px;
@@ -90,7 +96,7 @@ h1{
     /* border: 2px solid black; */
     margin-left: 30px;
     padding: 10px;
-    background-color: #000;
+    background-color: #fff;
 }
 #sp4{
     margin-left: 30px;
@@ -102,7 +108,7 @@ h1{
     /* border: 2px solid black; */
     margin-left: 30px;
     padding: 10px;
-    background-color: #000;
+    background-color: #fff;
     
 }
 
