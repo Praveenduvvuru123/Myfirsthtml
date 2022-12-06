@@ -21,7 +21,7 @@ span{
 }
 
 img{
-    width: 24vw;
+    width: 28vw;
     min-height: 26vh;
 }
 hr{
@@ -44,7 +44,7 @@ li{
     
 }
 footer{
-    margin-left:35vw;
+    margin-left:25vw;
     text-align: center;
     min-height: 20vh;
     width: 28vw;
@@ -58,7 +58,7 @@ footer a{
 }
 
 .contact{
-    margin-left: 3vw;
+   
 }
 a:visited{
     color: #adff2f;
@@ -105,10 +105,45 @@ a:hover{
    text-align: justify;
 }
 
-@media screen and (max-width:425) {
-    /* h1 text going to down */
-    /* .headings font size small and going to down */
-    
-    
+@media screen and (max-width:1546px) {
+   h1{
+    font-size: 50px;
+   }
+   p, li{
+    font-size: 20px;
+   }
+
+   a{
+    font-size: 20px;
+   }
+   .headings{
+    font-size: 30px;
+   }
 }
+
+@media screen and (width:2560px){
+    
+    header{
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 100px;
+       }
+       p, li{
+        font-size: 35px;
+       }
+
+       span,h2{
+        font-size: 35px;
+       }
+    
+       a{
+        font-size: 35px;
+       }
+       .headings{
+        font-size: 40px;
+       }
+}
+    
 

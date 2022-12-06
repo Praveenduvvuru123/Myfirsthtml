@@ -209,3 +209,70 @@ console.log(result);*/
 //      i++;
 // }while(i<=10);
 
+//using forloop multiplication
+
+//     let sum=0;
+
+// for(let i = 1; i<=6; i++){
+
+//     sum=sum+i;
+// }
+// console.log(sum);
+
+//string length method
+
+// let name ="we are javascript developers!";
+//     console.log(name.length);
+
+//string slice method
+
+// let name ="we are javascript developers!";
+//      console.log(name.slice(7,18));
+
+//String substring method
+
+// let name ="we are javascript developers!";
+//      console.log(name.substring(7,18));
+//      console.log(name.substring(name.length - 4));
+
+//string toUpperCase method
+
+    // let name ="we are javascript developers!";
+
+    //  console.log(name.toUpperCase());
+
+// string lower case method
+
+    //  let name ="we are javascript developers!";
+
+    //  console.log(name.toLowerCase());
+ 
+// string concat method
+
+// let data="We Are"
+// let name ="we are javascript developers!";
+
+//    console.log(name.concat('',data));
+
+//string split method
+
+// let name ="we are javascript developers!";
+// console.log(name.split()); 
+
+//Array pop method
+
+//  let number=[1,2,5,6,8];
+//  console.log(number.pop());
+//  console.log(number);
+
+//Array push method
+ 
+//  let number=[1,2,5,6,8];
+//  console.log(number.push(12)); //length of the array
+//  console.log(number);
+
+//Random number print
+
+// let x = Math.random();
+
+// console.log(x);
