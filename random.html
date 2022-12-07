@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-color:#08D9D6;
+        }
+        button{
+            position: absolute;
+            left: 43%;
+            top: 43%;
+            font-size: 40px;
+            border-radius: 20px;
+            padding: 5px;
+            background-color: #ffffff;
+            box-shadow: 12px 12px 20px #cbced1    ,
+               -12px -5px 20px #ecf0ecf3; 
+        }
+
+        button:hover{
+            color: yellow;
+            background-color: #C147E9;      
+        }
+
+        button:active{
+            background-color: #009EFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Random Number:
+            <button onclick="generateRandom()">Click me</button>
+        </h1>
+    </div>
+</body>
+<script src="./scripts/random.js">
+    
+</script>
+</html>
