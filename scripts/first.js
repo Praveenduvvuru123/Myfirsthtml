@@ -277,3 +277,56 @@ console.log(result);*/
 
 // console.log(x);
 
+// let today = new Date();
+// console.log(today);
+
+// let dd = today.getDate();
+// console.log(dd);
+
+// let mm = today.getMonth()+1;
+// console.log(mm);
+
+// let yyyy = today.getFullYear();
+// console.log(yyyy);
+
+// let hr = today.getHours();
+// console.log(hr);
+
+// let min = today.getMinutes();
+// console.log(min);
+
+// let sec = today.getSeconds();
+// console.log(sec);
+
+// function printMessage(message){
+//     console.log(message);
+// }
+
+// function sum(x,y){
+//     let SumOFNumbers = x+y;
+//     return SumOFNumbers;
+// }
+
+// let result = sum(5,3);
+// printMessage(result);
+
+// function minus(x,y){
+//     console.log(x-y);
+
+// }
+// minus(5,3);
+
+// function multiplication(x,y){
+//     console.log(x*y);
+// }    
+// multiplication(5,3);
+
+// function division(x,y){
+//    console.log(x/y);
+// }
+// division(5,3);
+
+// function modulo(x,y){
+//    console.log(x%y);
+// }
+// modulo(5,3);
