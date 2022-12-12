@@ -462,11 +462,12 @@ console.log(result);*/
 // }
 // console.log(arraySum());
 
+
 //calling function using this calling object //
 
 // let person = {
-//     name : "Praveen",
-//     age  : 26,
+//     name : "Raju",
+//     age  : 24,
 //     profession : "developer",
 
 //     printFullName: function(){
@@ -474,29 +475,49 @@ console.log(result);*/
 //     }
 // }
 // person.printFullName();
-
 // let name = {
-//     name : "Praveen",
-//     age  : "25",  
+//     name : "Rani",
+//     age  : 21,  
 // }
-
-// //function borrowing
 // person.printFullName.call(name);
 
-//    isEligible(this.person);
-//    for(const key in person){
-//    console.log(person[key]);
-// // }
 
-//     let str ="good developers";
-//     str.split(" ").forEach(word=>{
-//     let lowerWord = word.toLowerCase();
-//     console.log(str[0].toUpperCase()+lowerWord.slice(1));  
+//  let str ="good developers";
+//  str.split(" ").forEach(word=>{
+//  let lowerWord = word.toLowerCase();
+//  console.log(str[0].toUpperCase()+lowerWord.slice(1));  
 // });
 
+//split,slice,toUpperCase,toLowerCase practice//
 
-let str ="good developers";
-console.log(str.split(" "));
+// let str ="good developers";
+// console.log(str.split(" "));
+// console.log(str.split());
+// console.log(str.split(""));
 // console.log(str.slice(0,4));
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
 
+//Each word capital function//
+
+// function capitalize(word){
+//     let lowerWord = word.toLowerCase();
+//     return lowerWord[0].toUpperCase()+lowerWord.slice(1);
+// }
+// let str = "we Are good devalopers";
+// str.split(" ").forEach(word => console.log(capitalize(word)));
+
+// let greeting ="hello all of you";
+// console.log(capitalize(greeting));
+
+//Each Word Capitalize//
+
+// const mySentence = "freeCodeCamp is an awesome resource";
+// const words = mySentence.split(" ");
+
+// for (let i = 0; i < words.length; i++) {
+//     words[i] = words[i][0].toUpperCase() + words[i].substr(1);
+// };
+
+// console.log(words);
 
