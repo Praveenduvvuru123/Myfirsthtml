@@ -254,7 +254,7 @@ console.log(result);*/
 
 //    console.log(name.concat('',data));
 
-//string split method
+// string split method
 
 // let name ="we are javascript developers!";
 // console.log(name.split()); 
@@ -330,3 +330,173 @@ console.log(result);*/
 //    console.log(x%y);
 // }
 // modulo(5,3);
+
+//Array Map function //Multiplay out put comes Array
+
+// const numArray = [2,4,6,5,8,7]; //constant array
+// const newArray =numArray.map((num)=>num * 2); 
+// //map function is using to get multiplay of another array num is key
+
+// console.log(newArray); //print new array
+
+//Array filter function
+
+// const numArray =[2,4,5,6,8,12];
+// const newArray =numArray.filter((num)=>(num%2==0));
+
+// console.log(newArray);
+
+//Array reduce function
+
+// let numArray = [2,4,5,6,8,12]; //previousvalue and currentvalues taken here
+// initialValue = 0; // this is syntax purpose //this is also using add some values
+// const newArray = numArray.reduce((previousvalue,currentvalue)=>previousvalue+currentvalue,initialValue);
+// //reducing funtion in array 
+// console.log(newArray);
+
+
+//units coverting
+//inchesTocm converting
+
+// function inchesTocm(num){
+//     return num * 2.54;
+// }
+//    console.log(inchesTocm(1));
+
+// inchesTocm = (num)=>{
+//         return num * 2.54;
+//    }
+//     console.log(inchesTocm(1));
+
+// inchesToCm=(num)=>num*2.54;
+// console.log("Cm " +inchesToCm(1));
+
+//cmToinches Converting
+
+// function CmToinches(num){
+//     return num * 0.393701;
+// }
+// console.log(CmToinches(1));
+
+// CmToinches=(num)=>{
+//     return num * 0.393701;
+// }
+// console.log(CmToinches(1));
+
+// CmToInches=(num)=>num*0.393701;
+// console.log("Inch " +CmToInches(1));
+
+//kgTogram Converting
+
+// function KgTogram(num){
+//     return num * 1000;
+// }
+// console.log(KgTogram(1));
+
+// KgTogram = (num) =>{
+//     return num * 1000;
+// }
+// console.log(KgTogram(1));
+
+// KgToGrams=(num)=>num*1000;
+// console.log("Grams " +KgToGrams(1));
+
+
+//GramTokg converting
+
+// function GramTokg(num){
+//     return num * 0.001;
+// }
+// console.log(GramTokg(1));
+
+// GramTokg = (num) =>{
+//     return num * 0.001;
+// }
+// console.log(GramTokg(1));
+
+// GramsToKg=(num)=>num*0.001;
+// console.log("Kg " +GramsToKg(1));
+
+
+//cmTomm Converting//
+
+// function CmTomm(num){
+//     return num * 10;
+// }
+// console.log(CmTomm(1));
+
+//  CmTomm = (num)=>{
+//     return num * 10;
+// }
+// console.log(CmTomm(1));
+
+// CmToMm=(num)=>num*10;
+// console.log("mm " +CmToMm(1));
+
+//mmTocm Converting//
+
+// function MmTocm(num){
+//     return num * 0.1;
+// }
+// console.log(MmTocm(1));
+
+// MmTocm = (num)=>{
+//     return num * 0.1;
+// }
+// console.log(MmTocm(1));
+
+// MmToCm=(num)=>num*0.1;
+// console.log("Cm " +MmToCm(1));
+
+
+//using forEach for sum// 
+
+// let numsArr=[1,3,4,5];
+
+// function arraySum(){
+//     let sum=0;
+//     numsArr.forEach(num=>{
+//         sum=sum+num;
+//     })
+//     return sum;
+// }
+// console.log(arraySum());
+
+//calling function using this calling object //
+
+// let person = {
+//     name : "Praveen",
+//     age  : 26,
+//     profession : "developer",
+
+//     printFullName: function(){
+//         console.log(this.name +" age " + this.age);
+//     }
+// }
+// person.printFullName();
+
+// let name = {
+//     name : "Praveen",
+//     age  : "25",  
+// }
+
+// //function borrowing
+// person.printFullName.call(name);
+
+//    isEligible(this.person);
+//    for(const key in person){
+//    console.log(person[key]);
+// // }
+
+//     let str ="good developers";
+//     str.split(" ").forEach(word=>{
+//     let lowerWord = word.toLowerCase();
+//     console.log(str[0].toUpperCase()+lowerWord.slice(1));  
+// });
+
+
+let str ="good developers";
+console.log(str.split(" "));
+// console.log(str.slice(0,4));
+
+
