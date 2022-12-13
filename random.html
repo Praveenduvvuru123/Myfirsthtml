@@ -37,14 +37,29 @@
         button:active{
             background-color: #009EFF;
         }
+
+        h2{
+            position: absolute;
+            left: 46.5%;
+            top: 33%;
+            border: 1px solid black;
+            width: 80px;
+            height: 50px;
+            padding-left: 28px;
+            background-color: #fff;
+            border-radius: 11px;
+            font-size: 40px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
+       <!-- <div id="btnnumber">Number</div> -->
         <h1>
             Random Number:
-            <button onclick="generateRandom()">Click me</button>
+            <button>Click me</button> <!--onclick="generateRandom()"-->
         </h1>
+        <h2>0</h2>
     </div>
 </body>
 <script src="./scripts/random.js">

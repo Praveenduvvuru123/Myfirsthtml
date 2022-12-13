@@ -34,6 +34,7 @@
     document.getElementById("greenbox").style.float=`left`;
     document.getElementById("greenbox").style.overflow=`hidden`;
     document.getElementById("greenbox").style.borderRadius=`5px`;
+    document.getElementById("greenbox").style.color=`#fff`;
  
     document.getElementById("yellowbox").style.height=`260px`;
     document.getElementById("yellowbox").style.width=`350px`;
@@ -62,6 +63,22 @@
     document.getElementById("blackbox").style.overflow=`hidden`;
     document.getElementById("blackbox").style.borderRadius=`5px`;
   
+
+    document.querySelector("#greenbox").addEventListener("mousemove",myFunction);
+
+    function myFunction() {
+        document.querySelector("#random").innerHTML = Math.random();    
+    }
+
+    function removeHandler() {
+        document.querySelector("#greenbox").removeEventListener("mousemove",myFunction);
+    }
+
+    function upperCase() {
+        const text = document.querySelector("#details");
+        text.value = text.value.toUpperCase();
+    }
+
 
     // console.log(redBox);
     // console.log(greenBox);
