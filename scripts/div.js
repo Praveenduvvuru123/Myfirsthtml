@@ -4,6 +4,8 @@
 // let yellowBox=document.getElementsByClassName('yellow');
 // let orangeBox=document.getElementsByClassName('yellow');
 // let blackBox=document.getElementsByClassName('yellow');
+// let element = document.querySelector()
+// let elements = document.querySelectorAll()
 
 
     document.getElementById("bluebox").style.height=`260px`;
@@ -12,7 +14,8 @@
     document.getElementById("bluebox").style.backgroundColor=`blue`;
     document.getElementById("bluebox").style.margin=`10px`;
     document.getElementById("bluebox").style.float=`left`;
-    document.getElementById("orangebox").style.overflow=`hidden`;
+    document.getElementById("bluebox").style.overflow=`hidden`;
+    document.getElementById("bluebox").style.borderRadius=`5px`;
 
     document.getElementById("redbox").style.height=`260px`;
     document.getElementById("redbox").style.width=`350px`;
@@ -20,7 +23,8 @@
     document.getElementById("redbox").style.backgroundColor=`red`;
     document.getElementById("redbox").style.margin=`10px`;
     document.getElementById("redbox").style.float=`left`;
-    document.getElementById("orangebox").style.overflow=`hidden`;
+    document.getElementById("redbox").style.overflow=`hidden`;
+    document.getElementById("redbox").style.borderRadius=`5px`;
 
     document.getElementById("greenbox").style.height=`260px`;
     document.getElementById("greenbox").style.width=`350px`;
@@ -28,7 +32,8 @@
     document.getElementById("greenbox").style.backgroundColor=`green`;
     document.getElementById("greenbox").style.margin=`10px`;
     document.getElementById("greenbox").style.float=`left`;
-    document.getElementById("orangebox").style.overflow=`hidden`;
+    document.getElementById("greenbox").style.overflow=`hidden`;
+    document.getElementById("greenbox").style.borderRadius=`5px`;
  
     document.getElementById("yellowbox").style.height=`260px`;
     document.getElementById("yellowbox").style.width=`350px`;
@@ -36,7 +41,8 @@
     document.getElementById("yellowbox").style.backgroundColor=`yellow`;
     document.getElementById("yellowbox").style.margin=`10px`;
     document.getElementById("yellowbox").style.float=`left`;
-    document.getElementById("orangebox").style.overflow=`hidden`;
+    document.getElementById("yellowbox").style.overflow=`hidden`;
+    document.getElementById("yellowbox").style.borderRadius=`5px`;
     
     document.getElementById("orangebox").style.height=`260px`;
     document.getElementById("orangebox").style.width=`350px`;
@@ -45,6 +51,7 @@
     document.getElementById("orangebox").style.margin=`10px`;
     document.getElementById("orangebox").style.float=`left`;
     document.getElementById("orangebox").style.overflow=`hidden`;
+    document.getElementById("orangebox").style.borderRadius=`5px`;
 
     document.getElementById("blackbox").style.height=`260px`;
     document.getElementById("blackbox").style.width=`350px`;
@@ -52,7 +59,8 @@
     document.getElementById("blackbox").style.backgroundColor=`black`;
     document.getElementById("blackbox").style.margin=`10px`;
     document.getElementById("blackbox").style.float=`left`;
-    document.getElementById("orangebox").style.overflow=`hidden`;
+    document.getElementById("blackbox").style.overflow=`hidden`;
+    document.getElementById("blackbox").style.borderRadius=`5px`;
   
 
     // console.log(redBox);
