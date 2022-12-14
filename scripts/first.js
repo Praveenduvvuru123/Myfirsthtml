@@ -363,12 +363,12 @@ console.log(result);*/
 // }
 //    console.log(inchesTocm(1));
 
-// inchesTocm = (num)=>{
+// const inchesTocm = (num)=>{
 //         return num * 2.54;
 //    }
 //     console.log(inchesTocm(1));
 
-// inchesToCm=(num)=>num*2.54;
+// const inchesToCm=(num)=>num*2.54;
 // console.log("Cm " +inchesToCm(1));
 
 //cmToinches Converting
@@ -378,12 +378,12 @@ console.log(result);*/
 // }
 // console.log(CmToinches(1));
 
-// CmToinches=(num)=>{
+// const CmToinches=(num)=>{
 //     return num * 0.393701;
 // }
 // console.log(CmToinches(1));
 
-// CmToInches=(num)=>num*0.393701;
+// const CmToInches=(num)=>num*0.393701;
 // console.log("Inch " +CmToInches(1));
 
 //kgTogram Converting
@@ -393,12 +393,12 @@ console.log(result);*/
 // }
 // console.log(KgTogram(1));
 
-// KgTogram = (num) =>{
+// const KgTogram = (num) =>{
 //     return num * 1000;
 // }
 // console.log(KgTogram(1));
 
-// KgToGrams=(num)=>num*1000;
+// const KgToGrams=(num)=>num*1000;
 // console.log("Grams " +KgToGrams(1));
 
 
@@ -409,12 +409,12 @@ console.log(result);*/
 // }
 // console.log(GramTokg(1));
 
-// GramTokg = (num) =>{
+// const GramTokg = (num) =>{
 //     return num * 0.001;
 // }
 // console.log(GramTokg(1));
 
-// GramsToKg=(num)=>num*0.001;
+// const GramsToKg=(num)=>num*0.001;
 // console.log("Kg " +GramsToKg(1));
 
 
@@ -425,12 +425,12 @@ console.log(result);*/
 // }
 // console.log(CmTomm(1));
 
-//  CmTomm = (num)=>{
+// const CmTomm = (num)=>{
 //     return num * 10;
 // }
 // console.log(CmTomm(1));
 
-// CmToMm=(num)=>num*10;
+// const CmToMm=(num)=>num*10;
 // console.log("mm " +CmToMm(1));
 
 //mmTocm Converting//
@@ -440,12 +440,12 @@ console.log(result);*/
 // }
 // console.log(MmTocm(1));
 
-// MmTocm = (num)=>{
+// const MmTocm = (num)=>{
 //     return num * 0.1;
 // }
 // console.log(MmTocm(1));
 
-// MmToCm=(num)=>num*0.1;
+// const MmToCm=(num)=>num*0.1;
 // console.log("Cm " +MmToCm(1));
 
 
