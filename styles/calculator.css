@@ -9,7 +9,9 @@ body{
     width: 100vw;
     background-color: #27496D;
     font-family: sans-serif;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -17,12 +19,9 @@ body{
     height: 420px;
     width: 840px;
     overflow: hidden;
-    position: absolute;
     border-radius: 10px;
     background-color:#ecf0ecf3;
     padding: 20px;
-    top: 11%;
-    left: 16.5%;
     border:2px solid #cbced1;
     box-shadow:  inset 12px 12px 20px #cbced1,
                 inset -12 -12 20px #ecf0ecf3;
