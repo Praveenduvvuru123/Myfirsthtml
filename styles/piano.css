@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #22A39F;
+}
+
+.container{
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  margin-left: 4px;
+  max-height: 500px;
+  background-color: #000;
+  border:4px solid #000;
+}
+
+button:active {
+    background-color: #fff;
+}
+
+.black:active {
+    background-color: #181D31;
+}
+
+
+.white-keys{
+    height: 300px;
+    width: 63px;
+    background-color: #ecf0ecf3;
+    border: 4px solid #181D31;
+    border-radius: 0 0 6px 6px;
+    margin-left: -3px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 26px;
+    padding-top: -500px;
+   
+}
+
+.black{
+    position: absolute;
+    height: 165px;
+    width: 33px;
+    margin-top: 26px;
+    background-color: #000;
+    border: 2px solid #6B728E;
+    border-radius: 0 0 6px 6px;
+    cursor: pointer;
+    border-style: outset;
+    padding: 2px;
+    box-shadow:2px 4px 1px 6px #000; 
+   
+}
+
+span{
+   position: absolute;
+   bottom: 60px;
+   margin-left: -10px;
+   color: #000;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.spblack{
+    color: #fff;
+    bottom: 40px;
+}
+
+/* .white-keys:hover{
+    background-color: red;
+} */
+
+.key1{
+    left: 2.5vw;
+}
+
+.key2{
+    left: 10.5vw;
+}
+
+.key3{
+    left: 16vw;
+}
+
+.key4{
+    left: 23.5vw;
+}
+
+.key5{
+    left: 28vw;
+}
+
+.key6{
+    left: 32.5vw;
+}
+
+.key7{
+    left: 40.5vw;
+}
+
+.key8{
+    left: 46vw;
+}
+
+.key9{
+    left: 54vw;
+}
+
+@media screen and(max-width:760px) {
+    
+}
