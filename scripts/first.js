@@ -520,4 +520,14 @@ console.log(result);*/
 
 // console.log(words);
 
+// let player1Arr= 10;
+// let player2Arr = 5;
+
+// let hi = "hello world";
+// console.log(hi);
+
+// setInterval(hello = () =>{console.log("1")},1000);
+
+
+// setInterval(myTimer, 1000);
 

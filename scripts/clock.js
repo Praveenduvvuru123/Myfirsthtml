@@ -27,8 +27,6 @@ function Displaydatetime(){
     document.getElementById('month').innerHTML = mm;
     document.getElementById('year').innerHTML = yyyy;
     document.getElementById('week').innerHTML = day;
-
-
-    
+   
 }
 setInterval(Displaydatetime);
