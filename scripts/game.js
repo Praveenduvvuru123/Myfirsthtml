@@ -8,6 +8,7 @@ let p2value = document.querySelector('#p2value');
 
 let player1Arr = [];
 let player2Arr = [];
+let Objfinally = {};
 
 
 function generateRandom() {
@@ -35,6 +36,7 @@ function arraySum(numArr) {
     document.getElementById("plr1").innerText = arraySum(player1Arr);
     
 });
+    let p1score =  arraySum(player2Arr);
 
     btn2.addEventListener('click', () =>{
     let player2Score = generateRandom();
@@ -42,10 +44,10 @@ function arraySum(numArr) {
     p2value.innerText = player2Score;
     console.log(player2Arr);
     document.getElementById("plr2").innerText = arraySum(player2Arr);
-
 });
+    let p2score =  arraySum(player2Arr);
 
-if(player1Score>player2Score){
+if(p1score>p2score){
     console.log("player1 wins")
 }
 else{
