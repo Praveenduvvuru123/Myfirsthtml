@@ -26,16 +26,24 @@
             </div>
             <div class="node2">
                 <nav>
-                    <a href="*/" target="_blank">Works</a>
-                    <a href="*/" target="_blank">Blog</a>
-                    <a href="*/" target="_blank">Contact</a>
+                    <a href="./blog.html">Blog</a>
+                    <a href="./work.html">Works</a>
+                    <a href="./contact.html">Contact</a>
                 </nav>
                 <img src="https://i.pravatar.cc/" alt="img.jpg" id="img1">
+                <div class="menubars">
+                    <i class="fa-sharp fa-solid fa-bars" style="font-size: 30px;" ></i>
+                    <div class="dropdown-content">
+                        <a href="./blog.html">Blog</a>
+                        <a href="./work.html">Works</a>
+                        <a href="./contact.html">Contact</a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="box2">
             <div class="node3">
-                <span id="sp1">Resent Posts</span>
+                <a href="" id="sp1">Resent Posts</a>
                 <p class="head1">Making a design system from scaratch</p>
                 <p class="sp3">
                     <span>12 Feb 2020</span>&nbsp;|  &nbsp;
@@ -49,7 +57,7 @@
                 </p>
             </div>
             <div class="node4">
-                <span id="sp2">view all</span>
+                <a href="./blog.html" id="sp2">view all</a>
                 <p class="head1">Making a design system from scaratch</p>
                 <p class="sp3">
                     <span>12 Feb 2020</span> &nbsp;|
@@ -90,7 +98,7 @@
                         fugiat blanditiis adipisci repudiandae.
                     </p>
                 </div>
-                <hr>
+                <hr class="hr3">
                 <div id="line2">
                     <p class="head4">Vibrant Portraits of 2020</p>
                     <span class="sp">2018</span>&nbsp;
@@ -114,7 +122,7 @@
                         fugiat blanditiis adipisci repudiandae.
                     </p>
                 </div>
-                <hr>
+                <hr class="hr3">
             </div>
         </div>
         <div class="box4">
@@ -130,4 +138,16 @@
       </div>
    </div>
 </body>
+<script>
+    let dropdownBtn = document.querySelector('.fa-sharp');
+    let menuContent = document.querySelector('.dropdown-content');
+
+        dropdownBtn.addEventListener('click',()=>{
+    if(menuContent.style.display===""){
+        menuContent.style.display="block";
+    } else {
+        menuContent.style.display="";
+    }
+})
+</script>
 </html>

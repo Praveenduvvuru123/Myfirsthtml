@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,8 +8,8 @@
 
 body {
     height: 200vh;
-    width: 100%;   
-
+    width: 100%;  
+    font-family: sans-serif;
 }
 
 .container{
@@ -60,6 +62,7 @@ body {
 h1 {
     margin-bottom: 5px;
     padding: 6px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 h2{
@@ -87,6 +90,10 @@ h2{
     background-color: #E84545;
 }
 
+#resume:hover{
+    border: 2px solid #00E7FF;
+}
+
 nav {
     float: right;
     margin-top: 20px;
@@ -97,6 +104,15 @@ nav a {
     margin: 13px;
     text-decoration: none;
     color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav a:hover {
+    border-bottom:1px solid #E84545;
+}
+
+nav a:active {
+    background-color: #FFF;
 }
 
 .div1{
@@ -126,16 +142,26 @@ nav a {
 #sp1 {
     position: relative;
     width: fit-content;
+    text-decoration: none;
     left: 5px;
     bottom: 5.5vh;
+}
+
+#sp1:hover {
+    cursor: pointer;
 }
 
 #sp2 {
     position: relative;
     width: fit-content;
     left: 33vw;
+    text-decoration: none;
     bottom: 5.5vh;
     color: #00E7FF;
+}
+
+#sp2:hover {
+    cursor: pointer;
 }
 
 .head1 {
@@ -157,7 +183,7 @@ nav a {
 .node5 {
     background-color: #fff;
     margin-left: 10vw;
-    width: 18vw;
+    /* width: 18vw; */
 }
 
 .node6 {
@@ -174,9 +200,9 @@ nav a {
     padding: 1px;
     border-radius:100%;
     margin-left: 50px;
-    height: 243px;
+    height: 200px;
     margin-top: 35px;
-    width: 243px;
+    width: 200px;
 
 }
 
@@ -187,6 +213,7 @@ nav a {
 
 .head3 {
     margin-top: 40px;
+    margin-left: 1vw;
     margin-bottom: 8px;
     font-size: 20px;
     font-weight: 600;
@@ -195,16 +222,22 @@ nav a {
 .intro3{
     margin-top: 10px;
     font-size: 18px;
+    margin-left: 1vw;
     margin-bottom: 30px;
     padding-right: 15px;
+} 
+
+.sp {
+    margin-left: 1vw;
 }
 
 hr {
-    margin: 5p;
+    margin: 10px;
 }
 
 .head4 {
     margin-top: 30px;
+    margin-left: 1vw;
     margin-bottom: 8px; 
     font-size: 20px;
     font-weight: 600;
@@ -212,6 +245,7 @@ hr {
 
 .intro4{
     margin-top: 10px;
+    margin-left: 1vw;
     font-size: 18px;
     margin-bottom: 25px;
     padding-right: 15px;
@@ -219,6 +253,7 @@ hr {
 
 .head5 {
     margin-top: 30px;
+    margin-left: 1vw;
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: 600;
@@ -251,12 +286,13 @@ i:hover {
 }
 
 .copy {
-    height: 50px;
-    width: 241px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 1em;
 }
 
 .workimg {
-    padding-top: 15px;
+    padding-top: 10px;
     margin-top: 10px;
     height: 130px;
     width: 150px
@@ -284,26 +320,42 @@ i:hover {
     width: fit-content;
 }
 
+.menubars {
+       display: none;
+}
+
+/* .fa-sharp {
+  display: none;
+}
+
+.dropdown-content {
+    display: none;
+} */
+
 @media screen and (max-width:1230px) {
     .img3 {
         margin-top: 4vh;
-        padding-right: 15px;
     }
 
     .img4 {
         margin-top: 13vh;
-        padding-right: 15px;
     }
 } 
 
-@media screen and (max-width:907px) {
-    .img3 {
-        margin-top: 8vh;
-        padding-right: 15px;
+@media screen and (max-width:942px) {
+    .node5 {
+        margin-left: 0;
+    }
+
+    .node6 {
+        margin-right: 0;
+    }
+
+    .img3{
+        margin-top: 30px;
     }
 
     .img4 {
-        margin-top: 14vh;
         padding-right: 15px;
     }
 } 
@@ -321,6 +373,18 @@ i:hover {
        align-items:flex-start;
        flex-direction: column-reverse;
 
+    }
+
+    .hr3 {
+        display: none;
+    }
+
+    .node5 {
+        margin-left: 10vw;
+    }
+
+    .node6 {
+        margin-right: 10vw;
     }
 
     h1 {
@@ -356,14 +420,18 @@ i:hover {
         width: 100%;
     }
 
+    .head2 {
+        margin-left: -12vw;
+    }
+
     #img1 {
         padding: 0;
         position: relative;
-        left: 23vw;
+        left: 20vw;
         margin-top: 60px;
-        height: 40vh;
+        height: 35vh;
         border-radius: 100%;
-        width: 45vw;
+        width: 40vw;
     }
 
     #img1:hover {
@@ -385,7 +453,7 @@ i:hover {
     } 
 
     .img2 {
-        margin-left: 20vw;
+        margin-left: 8vw;
         margin-bottom: 10vhpx;
     }
 
@@ -412,8 +480,8 @@ i:hover {
 
     .node5 {
         display: flex;
+        margin: 0;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
 
     }
@@ -458,6 +526,53 @@ i:hover {
     }
 
     #sp2 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    nav{
+        display: none;
+    }
+
+    .menubars {
+        position: absolute;
+        right: 4vw;
+        margin-top: -15px;
+        display: inline-block;
+    }
+
+    .fa-sharp {
+        padding-top: 19px;
+        padding-left: 12px;
+    }
+
+    .fa-sharp:hover{
+        cursor: pointer;
+    }
+
+    .dropdown-content {
+        display: none;
+        overflow: auto;
+        position: absolute;
+        background-color: #f2f2f2;
+        width: fit-content;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+
+    .dropdown-content a:hover{
+        font-weight: bold;
+    }
+
+    .hr3 {
         display: none;
     }
 

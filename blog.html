@@ -5,48 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/blog.css">
+    <script src="https://kit.fontawesome.com/9b035ce0b1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
-        <nav>
-            <a href="*/" target="_blank">Works</a>
-            <a href="*/" target="_blank">Blog</a>
-            <a href="*/" target="_blank">Contact</a>
-        </nav>
-        <h1>Blog</h1>
-        <div>
-            <p>UI Interactions of the week</p>
-            <span>12 Feb 2019 | 12 Feb 2019</span>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia 
-               consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-            </p>
-        </div>
-        <hr>
-        <div>
-            <p>UI Interactions of the week</p>
-            <span>12 Feb 2019 | 12 Feb 2019</span>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia 
-               consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-            </p>
-        </div>
-        <hr>
-        <div>
-            <p>UI Interactions of the week</p>
-            <span>12 Feb 2019 | 12 Feb 2019</span>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia 
-               consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-            </p>
-        </div>
-        <hr>
-        <div class="box4">
-            <div class="socialdiv">
-                <img src="./images/facebook.png" alt="facebook/jpg" class="social">
-                    <img src="./images/instagram.png" alt="instagram/jpg" class="social">
-                    <img src="./images/twitter.png" alt="twitter/jpg" class="social">
-                    <img src="./images/in.png" alt="in/jpg" class="social">
+        <div class="menubars">
+            <i class="fa-sharp fa-solid fa-bars" style="font-size: 30px;" ></i>
+            <div class="dropdown-content">
+                <a href="./blog.html">Blog</a>
+                <a href="./work.html">Works</a>
+                <a href="./contact.html">Contact</a>
             </div>
-                <p class="copy">Copyright &copy;2020 All rights reserved</p>
         </div>
-    </div>
+        <div id="navigation">
+            <nav>
+                <a href=" " id="blog">Blog</a>
+                <a href="./work.html">Works</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+        </div>
+            <div id="parent">
+
+                <div class="chaild1">
+                    <h1>Blog</h1>
+                    <p class="head1">UI Interactions of the week</p>
+                    <span class="sp1">12 Feb 2019</span>
+                    <span>| 12 Feb 2019</span>
+                    <p class="pera">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                     Velit officiaconsequat duis enim velit mollit. Exercitation veniam consequat suntnostrud 
+                     amet.
+                    </p>
+                </div>
+                <hr>
+                <div class="chaild1">
+                    <p class="head1">UI Interactions of the week</p>
+                    <span class="sp1">12 Feb 2019</span>
+                    <span>| 12 Feb 2019</span>
+                    <p class="pera">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                      Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt 
+                      nostrud amet.
+                    </p>
+                </div>
+                <hr>
+                <div class="chaild1">
+                    <p class="head1">UI Interactions of the week</p>
+                    <span class="sp1">12 Feb 2019</span><span>| 12 Feb 2019</span>
+                    <p class="pera">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                     Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt amet.
+                    </p>
+                </div>
+                <hr>
+                <div class="chaild1">
+                    <p class="head1">UI Interactions of the week</p>
+                    <span class="sp1">12 Feb 2019</span>
+                    <span>| 12 Feb 2019</span>
+                    <p class="pera">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet 
+                         sint.Velit officia consequat duis enim velit mollit. Exercitation veniam consequat 
+                          sunt nostrud amet. 
+                    </p>
+                </div>
+                <hr>
+                <div class="box4">
+                    <div class="socialdiv">
+                        <i class="fa-brands fa-square-facebook" class="social"></i>
+                        <i class="fa-brands fa-instagram" class="social"></i>
+                        <i class="fa-brands fa-square-twitter" class="social"></i>
+                        <i class="fa-brands fa-linkedin" class="social"></i>
+                    </div>
+                    <div>
+                        <p class="copy">Copyright &copy;2020 All rights reserved</p>
+                   </div>
+              </div>
+            </div>
+     </div>
 </body>
+<script>
+
+    let dropdownBtn = document.querySelector('.fa-sharp');
+    let menuContent = document.querySelector('.dropdown-content');
+
+        dropdownBtn.addEventListener('click',()=>{
+    if(menuContent.style.display===""){
+        menuContent.style.display="block";
+    } else {
+        menuContent.style.display="";
+    }
+});
+</script>
 </html>
