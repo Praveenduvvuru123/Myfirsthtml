@@ -35,7 +35,6 @@ body {
 .box3 {
     background-color: #fff;
     display: flex;
-    flex-direction: row;
    
 }
 
@@ -191,12 +190,8 @@ nav a:active {
 .node5 {
     background-color: #fff;
     margin-left: 10vw;
-}
-
-.node6 {
     margin-right: 10vw;
 }
-
 
 .head2 {
     font-size: 20px;
@@ -219,7 +214,7 @@ nav a:active {
 
 
 .head3 {
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 1vw;
     margin-bottom: 8px;
     font-size: 20px;
@@ -230,7 +225,6 @@ nav a:active {
     margin-top: 10px;
     font-size: 18px;
     margin-left: 1vw;
-    margin-bottom: 30px;
     padding-right: 15px;
 } 
 
@@ -242,35 +236,8 @@ hr {
     margin: 10px;
 }
 
-.head4 {
-    margin-top: 30px;
-    margin-left: 1vw;
-    margin-bottom: 8px; 
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.intro4{
-    margin-top: 10px;
-    margin-left: 1vw;
-    font-size: 18px;
-    margin-bottom: 25px;
-    padding-right: 15px;
-}
-
-.head5 {
-    margin-top: 30px;
-    margin-left: 1vw;
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.intro5 {
-    margin-top: 10px;
-    font-size: 18px;
-    margin-bottom: 20px;
-    padding-right: 15px;
+.one{
+    display: flex;
 }
 
 i {
@@ -304,67 +271,22 @@ i:hover {
 }
 
 .workimg {
-    padding-top: 10px;
-    margin-top: 10px;
-    height: 130px;
-    width: 150px
-}
-
-.img3 {
-    margin-top: 10px;
-    margin-top: 10px;
-    height: 130px;
-    width: 150px
-}
-.img4 {
-    margin-top: 10px;
-    margin-top: 10px;
-    height: 130px;
-    width: 150px
-}
-
-.img2{
-    height: 156px;
-    width: 150px;
+    padding: 5px;
+    margin-top: 5px;
+    height: 180px;
+    width: 180px
 }
 
 #f1{
     width: fit-content;
+    margin: 10px;
 }
 
 .menubars {
        display: none;
 }
 
-@media screen and (max-width:1230px) {
-    .img3 {
-        margin-top: 4vh;
-    }
-
-    .img4 {
-        margin-top: 13vh;
-    }
-} 
-
-@media screen and (max-width:942px) {
-    .node5 {
-        margin-left: 0;
-    }
-
-    .node6 {
-        margin-right: 0;
-    }
-
-    .img3{
-        margin-top: 30px;
-    }
-
-    .img4 {
-        padding-right: 15px;
-    }
-} 
-
-@media screen and (max-width:758px) {
+@media screen and (max-width:760px) {
 
     .container{
         display: flex;
@@ -383,14 +305,6 @@ i:hover {
         display: none;
     }
 
-    .node5 {
-        margin-left: 10vw;
-    }
-
-    .node6 {
-        margin-right: 10vw;
-    }
-
     h1 {
         margin-left: 2px;
     }
@@ -401,17 +315,17 @@ i:hover {
 
     .node1, #resume {
         padding: 8px;
-        margin-top: 15px;
-    }
-
-    .intro {
-        padding-left: 50px;
     }
 
     .box2{
         display: flex;
         flex-direction: column;
 
+    }
+
+    .one{
+        display: flex;
+        flex-direction: column;
     }
 
     .node1 {
@@ -438,10 +352,6 @@ i:hover {
         width: 40vw;
     }
 
-    #img1:hover {
-        border: 3px solid #00E7FF;
-    }
-
     .node3 {
         margin: 8vh 4vw 1vh 4vw;
 
@@ -457,7 +367,7 @@ i:hover {
     } 
 
     .img2 {
-        margin-left: 8vw;
+        margin-left: 2vw;
         margin-bottom: 10vhpx;
     }
 
@@ -465,14 +375,7 @@ i:hover {
         font-size: 18px;
     }
 
-    .box3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
     .head3 {
-        margin: 0;
         padding-bottom: 5px;
     }
 
@@ -492,16 +395,9 @@ i:hover {
     #f1 {
         width: 140px;
         padding-top: 5px;
-       margin-left: 20vw;
+        margin-left: 20vw;
     }
 
-    .node6 {
-        padding-left: 20px;
-    }
-
-    .img3 {
-        display: none;
-    }
     .box4 {
         width: 100%;
         display: flex;
@@ -541,9 +437,13 @@ i:hover {
 
     .menubars {
         position: absolute;
-        right: 4vw;
+        right: 8vw;
         margin-top: -15px;
         display: inline-block;
+    }
+
+    .box {
+        display: none;
     }
 
     .fa-sharp {
@@ -575,7 +475,11 @@ i:hover {
         font-weight: bold;
     }
 
-    .hr3 {
+    .hr2 {
+        display: none;
+    }
+
+    .one2{
         display: none;
     }
 
