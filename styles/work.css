@@ -109,6 +109,10 @@ hr {
  
  }
 
+ .socialdiv a{
+    color: #000;
+}
+
 i {
     height: 7vh;
     margin: .3em;
@@ -117,6 +121,7 @@ i {
 
 i:hover {
     color:#C147E9;
+    cursor: pointer;
 }
 
 #f1{

@@ -77,7 +77,8 @@ h2{
 
 #resume a {
     color: #fff;
-    padding: 8px;
+    padding: 5px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -128,14 +129,21 @@ nav a:active {
     margin: 8vh 1vw 8vh 10vw;
 }
 
+.node3:hover{
+    border: 2px solid #00E7FF;
+}
+
 .node4 {
     background-color: #fff;
-    margin-left: 10px;
     margin: 8vh 10vw 8vh 1vw;
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
   
+}
+
+.node4:hover{
+    border: 2px solid #00E7FF;
 }
 
 
@@ -183,7 +191,6 @@ nav a:active {
 .node5 {
     background-color: #fff;
     margin-left: 10vw;
-    /* width: 18vw; */
 }
 
 .node6 {
@@ -274,6 +281,7 @@ i {
 
 i:hover {
     color:#C147E9;
+    cursor: pointer;
 }
 
 .socialdiv {
@@ -283,6 +291,10 @@ i:hover {
    height: 100px;
    width: 400px;
 
+}
+
+.socialdiv a{
+    color: #000;
 }
 
 .copy {
@@ -323,14 +335,6 @@ i:hover {
 .menubars {
        display: none;
 }
-
-/* .fa-sharp {
-  display: none;
-}
-
-.dropdown-content {
-    display: none;
-} */
 
 @media screen and (max-width:1230px) {
     .img3 {
@@ -465,7 +469,6 @@ i:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* align-items: center; */
     }
 
     .head3 {

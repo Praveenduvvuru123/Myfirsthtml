@@ -91,6 +91,10 @@ hr {
  
  }
 
+ .socialdiv a{
+    color: #000;
+}
+
 .sp1 {
     font-size: 18px;
     font-weight: 550;
@@ -104,6 +108,7 @@ hr {
 
 i:hover {
     color:#C147E9;
+    cursor: pointer;
 }
 
 #f1{
