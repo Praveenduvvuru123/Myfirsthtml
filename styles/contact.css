@@ -72,6 +72,8 @@ h2 {
 
 input{
     margin: 5px;
+    padding: 4px 20px;
+    font-size: 20px;
 }
 
 label{
@@ -100,6 +102,7 @@ textarea{
     margin-left: 10px;
     margin-top: 3px;
     padding: 10px;
+    font-size: 18px;
     border-radius: 6px;
 }
 
@@ -112,6 +115,22 @@ textarea{
     top: 0;
 }
 
+#homebutton {
+    position: relative;
+    bottom: 560px;
+    left: 15px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px;
+    text-decoration: none;
+}
+
+#homebutton:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+
 i{
     position: relative;
     right: 40px;
@@ -119,7 +138,6 @@ i{
     margin: 0;
     cursor: pointer;
 }
-
 
 @media screen and (max-width:768px){
     button{
@@ -131,8 +149,18 @@ i{
 
     }
 
+    #homebutton {
+        position: absolute;
+        font-size: 15px;
+        top: 10px;
+        color: black;
+        padding: 2px;
+        left: 45px;
+
+    }
+
     h1{
-        margin:5px 2px 0 95px;
+        margin:5px 2px 0 80px;
         font-size: 30px;
     }
 

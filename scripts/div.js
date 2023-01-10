@@ -79,6 +79,10 @@
         text.value = text.value.toUpperCase();
     }
 
+    function event1(){
+        document.querySelector("h1").innerHTML="Hello all of you how are you";
+    }
+
 
     // console.log(redBox);
     // console.log(greenBox);

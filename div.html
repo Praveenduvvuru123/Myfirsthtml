@@ -10,7 +10,7 @@
 
 <body>
      <div class="container banner" >
-        <div id="bluebox"><button style="margin: 115px;" id="btn1">click Me</button></div>
+        <div id="bluebox"><h1></h1><button style="margin: 115px;" id="btn1" onclick="event1()">click Me</button></div>
         <div id="redbox"><button style="margin: 125px;" id="btn2">Click Me</button></div>
         <div id="greenbox">
             <button onclick="removeHandler()" style="margin-left: 100px; margin-top: 50px;" >remove</button>
@@ -18,7 +18,8 @@
             <p id="random" style="margin-left: 50px;"></p>
         </div>
         <div id="yellowbox">Enter your Name:
-            <input type="text" name="details" id="details" style="margin: 20px; padding: 3px; font-size: 20px;" onchange="upperCase() ">
+            <input type="text" name="details" id="details" style="margin: 20px; padding: 3px; font-size: 20px;" 
+             onchange="upperCase() ">
         </div>
         <div id="orangebox"></div>
         <div id="blackbox"></div>

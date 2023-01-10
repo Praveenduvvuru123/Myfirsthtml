@@ -14,8 +14,6 @@ body{
 .container {
     margin: 0 12vw 0 12vw;
     background-color:#fff;
-    box-shadow:  inset 12px 12px 20px #cbced1,
-    /* inset -12 -12 20px #ecf0ecf3; */
 
 }
 
@@ -83,11 +81,15 @@ hr {
     margin: 20px;
 }
 
-#img1{
-    height: 30vh;
-    width: 20vw;
-   border: 2px solid black;
+.img1{
+   height: 30vh;
+   width: 20vw;
+   border: 2px solid #393E46;
    border-radius: 20px;
+}
+
+.img1:hover {
+    border: 4px solid #00E7FF;
 }
 
 .box4 {
@@ -155,7 +157,7 @@ i:hover {
         text-align: left;
     }
 
-    #img1{
+    .img1{
         margin-left: 5px;
         height: 150px;
         width: 260px;
